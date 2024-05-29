@@ -18,6 +18,7 @@
     imprimirVetor(vetorSoma);
 }
 
+
 // Método para preencher um vetor com valores fornecidos pelo usuário
 public static void preencherVetor(Scanner scanner, int[] vetor) {
     for (int i = 0; i < vetor.length; i++) {
@@ -41,6 +42,8 @@ public static void imprimirVetor(int[] vetor) {
     }
     System.out.println();
 }
+
+
 33)public class MediaDoVetor {
 
 public static void main(String[] args) {
@@ -62,6 +65,8 @@ public static double calcularMedia(int[] vetor) {
 public static void imprimirMedia(double media) {
     System.out.println("A média dos elementos do vetor é: " + media);
 }
+
+
 4:Cópia de Vetor int[] vetorOriginal = {10, 20, 30, 40, 50}; // Vetor original int[] vetorCopia = copiarVetor(vetorOriginal); // Chamada do método que copia o vetor imprimirVetor(vetorCopia); // Imprime o vetor copiado }
 
 // Método para copiar um vetor
@@ -81,6 +86,8 @@ public static void imprimirVetor(int[] vetor) {
     }
     System.out.println();
 }
+
+
 5:Verificar Igualdade de Vetores: int[] vetor1 = {4, 5, 6, 7, 8}; int[] vetor2 = {4, 5, 6, 7, 8}; int[] vetor3 = {8, 7, 6, 5, 4};
 
     boolean saoIguais1 = saoVetoresIguais(vetor1, vetor2); // Deve retornar true
@@ -116,6 +123,7 @@ int[] vetor = {1, 2, 3, 4, 5, 6};  // Exemplo de vetor
  imprimirVetor(vetor);  // Imprime o vetor invertido
 }
 
+
 // Método para inverter o vetor public static void inverterVetor(int[] vetor) { int n = vetor.length; for (int i = 0; i < n / 2; i++) { int temp = vetor[i]; vetor[i] = vetor[n - 1 - i]; vetor[n - 1 - i] = temp; } }
 
 // Método para imprimir o vetor public static void imprimirVetor(int[] vetor) { System.out.print("Vetor invertido: "); for (int valor : vetor) { System.out.print(valor + " "); } System.out.println(); } }
@@ -125,6 +133,7 @@ int[] vetor = {1, 2, 3, 4, 5, 6};  // Exemplo de vetor
     int[] resultado = contarParesEImpares(vetor); // Chamada do método que realiza a contagem
     imprimirResultado(resultado); // Método para imprimir os resultados
 }
+
 
 // Método para contar pares e ímpares
 
@@ -146,6 +155,8 @@ public static void imprimirResultado(int[] resultado) {
     System.out.println("Quantidade de números pares: " + resultado[0]);
     System.out.println("Quantidade de números ímpares: " + resultado[1]);
 }
+
+
 8)nt[] vetorOriginal = {2, 3, 5, 6, 8, 9, 10, 12}; // Exemplo de vetor int elementoParaRemover = 6; // Elemento a ser removido
 
     int[] vetorModificado = removerElemento(vetorOriginal, elementoParaRemover);
@@ -176,6 +187,7 @@ public static int[] removerElemento(int[] vetor, int elemento) {
     return novoVetor;
 }
 
+
 // Método para imprimir o vetor
 public static void imprimirVetor(int[] vetor) {
     System.out.print("Vetor modificado: [");
@@ -203,6 +215,7 @@ public static void ordenarVetor(int[] vetor) {
         }
     }
 }
+
 
 // Método para imprimir o vetor
 public static void imprimirVetor(int[] vetor) {
